@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDfc3NLxQ1-JihCknivrmLGaeVUPwr-csc",
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
     authDomain: "casademusica-9bdd4.firebaseapp.com",
     projectId: "casademusica-9bdd4",
     storageBucket: "casademusica-9bdd4.appspot.com",
